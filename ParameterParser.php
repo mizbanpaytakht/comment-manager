@@ -29,7 +29,7 @@ final class ParameterParser
     	$parsed_parameters                 = array();
     	
     	/** The supported variable types */
-    	$types                             = "array|json|string|int|bool|object|mixed|callable";
+    	$types                             = "array|json|string|int|bool|object|mixed|callable|float";
     	/** The supported validation rules */
     	$rules                             = "list|range|custom|email";
 		/** The param tags are extracted using regular expression */
@@ -81,7 +81,7 @@ final class ParameterParser
         /** The parsed parameters */
 		$parsed_line                      = array();
       	/** The supported variable types */
-    	$types                            = "array|json|string|int|bool|object|mixed|callable";
+    	$types                            = "array|json|string|int|bool|object|mixed|callable|float";
     	/** The supported validation rules */
     	$rules                            = "list|range|custom|email";
 		/** The param tags are extracted using regular expression */
